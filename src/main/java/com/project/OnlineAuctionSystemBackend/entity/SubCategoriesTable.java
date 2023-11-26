@@ -20,5 +20,29 @@ public class SubCategoriesTable {
     // Constructors, getters, setters
     public SubCategoriesTable() {
     }
+
+    public int getSubCategoryId() {
+        return subCategoryId;
+    }
+
+    public void setSubCategoryId(int subCategoryId) {
+        this.subCategoryId = subCategoryId;
+    }
+
+    public CategoriesTable getCategory() {
+        return category;
+    }
+
+    public void setCategory(CategoriesTable category) {
+        this.category = category;
+    }
+
+    public String getSubCategoryName() {
+        return subCategoryName;
+    }
+
+    public void setSubCategoryName(String subCategoryName) {
+        this.subCategoryName = subCategoryName;
+    }
 }
 
