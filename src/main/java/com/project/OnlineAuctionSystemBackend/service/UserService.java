@@ -16,7 +16,7 @@ public class UserService {
     private UsersRepository usersRepository;
 
     @Transactional
-    public String saveNewUser(UserDto userDto) {
+    public String saveNewUser(UserDto userDto)  {
         UsersTable usersTable = new UsersTable();
         usersTable.setUserName(userDto.getUserName());
         usersTable.setEmail(userDto.getEmail());
